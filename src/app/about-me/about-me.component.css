@@ -1,4 +1,29 @@
-.img-responsive {
-    width: 50%;
-    height: 50%;
+.mypic {
+    width: 600px;
+    height: 800px;
+    float:left;
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 10 px;
+}
+
+.aboutMeText {
+    font-size: 20px;
+    text-align: center;
+    float:right;
+    width: 300px;
+    border: 15px solid green;
+    padding: 100px;
+    margin-left: 10px;
+    margin-top: 250px;
+    margin-right: 0px;
+}
+
+.resume {
+    font-size: 20px;
+    text-align: center;
+    float:right;
+    width: 300px;
+    padding: 10px;
+    margin-right: 100px;
 }

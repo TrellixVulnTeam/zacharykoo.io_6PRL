@@ -1,0 +1,23 @@
+.wrapper {
+    display:grid;
+    grid-template-areas: 
+        "a a"
+        "b b"
+        "b b"
+        "c c"
+        "c c";
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 100px;
+}
+
+.c1 {
+    grid-area: a;
+}
+
+.c2 {
+    grid-area: b;
+}
+
+.c3 {
+    grid-area: c;
+}

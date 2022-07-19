@@ -1,0 +1,56 @@
+.projectImg {
+    width: 800px;
+    height: 500px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectText {
+    font-size: 20px;
+    float:right;
+    text-align: center;
+}
+
+.title {
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-areas: 
+        "a b c"
+        "a b c"
+        "d e f";
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 100px;
+}
+
+.p1 {
+    grid-area: a;
+}
+
+.p2 {
+    grid-area: b;
+}
+
+.p3 {
+    grid-area: c;
+}
+
+.t1 {
+    grid-area: d;
+}
+
+.t2 {
+    grid-area: e;
+}
+
+.t3 {
+    grid-area: f;
+}
