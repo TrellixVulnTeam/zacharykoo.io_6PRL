@@ -1,0 +1,2 @@
+Designing and implementing distributed systems with system communications using paradigms, fault tolerance and coordination in Java.
+Communications and information transfer are ordered by timed system and ACKs are implemented to ensure data is sent correctly.
