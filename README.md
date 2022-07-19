@@ -1,1 +1,1 @@
-https://zacharykoo.github.io/
+https://zacharykoo.github.io/zacharykoo.io
