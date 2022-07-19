@@ -1,0 +1,16 @@
+<h2>{{title}}</h2>
+<nav class = "navBar" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'notfixed'">
+    <div class = "row">
+        <div class = "container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/somelogo.jpg"></a>
+            </div>
+            <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+            <ul>
+                <li *ngFor="let content of contents">
+                    <a href="#{{content}}" class="smoothScroll">{{content}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

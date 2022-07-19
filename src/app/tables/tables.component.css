@@ -1,0 +1,51 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    width: auto;
+}
+
+ul li {
+    float: left;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right:1px;
+}
+
+.logo {
+    float: left;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right:1px;
+}
+
+.navBar {
+    font-family:Arial;
+    color: white;
+    line-height: 0px;
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.2s linear;
+    top: 0px;
+}
+
+.notfixed {
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}
